@@ -7,17 +7,6 @@ angular.module("meuModulo", ['ngRoute'])
 
         $routeProvider
 
-            .when("/home", {
-                templateUrl: "templates/home.html",
-                controller: "indexControler"
-
-            })
-
-            .when("/contato", {
-                templateUrl: "templates/contato.html",
-                controller: "contatoControler"
-            })
-
             .when("/inicial", {
                 templateUrl: "templates/inicial/inicial.html",
                 controller: "inicialController"
@@ -28,7 +17,7 @@ angular.module("meuModulo", ['ngRoute'])
 
         $routeProvider
             .otherwise({
-                redirectTo: "/home"
+                redirectTo: "/inicial"
             });
 
 
