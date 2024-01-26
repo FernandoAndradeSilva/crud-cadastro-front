@@ -11,8 +11,15 @@ app.directive('opcoesAcesso', function () {
 
         link : function (scope, element , attrs) {
 
+
             scope.cadastrarFuncionario = (() => {
-                $('#modal1').modal('open');
+
+
+
+
+
+
+
             })
         }
 

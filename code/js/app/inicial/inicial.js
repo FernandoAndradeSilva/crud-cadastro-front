@@ -1,8 +1,9 @@
 var app = angular.module('meuModulo')
 
-    app.controller("inicialController", function ($scope, $http) {
+    app.controller("inicialController", function ($scope, $http, $modal) {
 
-        $scope.titulo = "Página Inicial"
+        $scope.titulo = "PÁGINA INICIAL"
+
 
 
 });

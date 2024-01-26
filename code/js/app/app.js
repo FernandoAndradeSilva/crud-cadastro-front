@@ -1,7 +1,5 @@
-angular.module("meuModulo", ['ngRoute'])
-
-
-    .config(function ($routeProvider, $locationProvider) {
+var app = angular.module("meuModulo", ['ngRoute','ngBootstrap5'])
+app.config(function ($routeProvider, $locationProvider) {
 
         $locationProvider.hashPrefix('');
 
