@@ -1,0 +1,49 @@
+<script src="js/materialize/init.js"></script>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4 >Adicionar Funcionário</h4>
+        <p>Preencha os dados do Funcionário</p>
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input  type="text" ng-model="Funcionario.nome" class="validate" placeholder="nome">
+
+            </div>
+            <div class="input-field col s6">
+                <input type="text" ng-model="Funcionario.sobrenome" class="validate" placeholder="sobrenome">
+
+            </div>
+            <div class="input-field col s6">
+                <input type="text" ng-model="Funcionario.cpf" class="validate" placeholder="cpf">
+
+            </div>
+
+            <div class="input-field col s6">
+                <input type="text" ng-model="Funcionario.senha" class="validate" placeholder="senha">
+
+            </div>
+
+            <div class="input-field col s6">
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li>on</li>
+                    <li>two</li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+        <a ng-click="addAluno(Aluno)" class="waves-effect waves-light btn blue" >Adicionar</a>
+
+    </div>
+</div>
+

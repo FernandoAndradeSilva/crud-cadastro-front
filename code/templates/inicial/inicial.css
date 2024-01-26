@@ -1,0 +1,24 @@
+#panell{
+    margin-top: 150px;
+    padding: 0px;
+}
+
+.btn {
+    margin: 10px;
+}
+
+#loginbtr{
+    float: right;
+}
+#loginbtl{
+    float: left;
+}
+
+
+
+#title{
+    background-color: #2196F3 ;
+    color: white;
+    padding: 8px;
+    margin-top: 0px
+}
