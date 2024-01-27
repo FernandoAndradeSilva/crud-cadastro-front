@@ -1,4 +1,5 @@
-var app = angular.module("meuModulo", ['ngRoute','ngBootstrap5'])
+var app = angular.module("meuModulo", ['ngRoute' , 'ui.bootstrap'])
+
 app.config(function ($routeProvider, $locationProvider) {
 
         $locationProvider.hashPrefix('');
@@ -9,8 +10,6 @@ app.config(function ($routeProvider, $locationProvider) {
                 templateUrl: "templates/inicial/inicial.html",
                 controller: "inicialController"
             })
-
-
 
 
         $routeProvider

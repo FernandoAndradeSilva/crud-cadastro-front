@@ -1,8 +1,28 @@
 <link rel="stylesheet" href="templates/inicial/inicial.css">
-<div ng-include="'templates/_nav.html'"></div>
+<script src="js/materialize/init.js"></script>
+
 
 <main class="container">
 
-    <opcoes-acesso></opcoes-acesso>
+    <section>
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-12 col-sm-8 col-md-6 m-auto">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Selecione a Opção</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <button ng-click="cadastrarFuncionario()" type="button" class="btn btn-primary btn-lg" >CADASTRAR USUÁRIO</button>
+                            <button type="button" class="btn btn-secondary btn-lg float-end">LISTAR USUÁRIOS</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
 
 </main>
